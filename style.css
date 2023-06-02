@@ -164,14 +164,14 @@ color: rgb(21, 21, 100);
 
 }
 
-/* course */
+/* courses */
 
-#course {
+#courses {
     padding: 8vw 8vw 0 8vw;
     text-align: center;
 }
 
-#course .course-box {
+#courses .course-box {
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(320px, 1fr));
     grid-gap: 1rem;
@@ -179,7 +179,7 @@ color: rgb(21, 21, 100);
 }
 
 
-#course .courses{
+#courses .courses{
     text-align: start;
     background: #F9F9FF;
     height: 100%;
@@ -299,4 +299,95 @@ font-weight: 600;
     color: rgb(21, 21, 100);
     background: #fff;
 
+}
+
+/* experts */
+
+#experts {
+    padding: 8vw 8vw 0 8v;
+    text-align: center;
+}
+#experts .expert-box { 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1rem;
+    margin-top: 50px;
+}
+
+#experts .expert-box .profile{
+    background: #fafaf1;
+    padding: 30px 10px;
+}
+
+#experts .expert-box .profile .profile .pro-link{
+   margin-top: 10px;
+}
+
+#experts .expert-box .profile .profile .pro-link i{
+   padding: 10px 13px; 
+   border: 1px solid rgb(21, 21, 100);
+   cursor: pointer;
+   transition: 0.3s;
+}
+
+#experts .expert-box .profile .profile i:hover{
+    background: rgb(21, 21, 100);
+    color: #fff;
+    border: 1px solid rgb(21, 21, 100);
+    cursor: pointer;
+}
+
+
+/* footer */
+
+
+footer{
+    padding: 8vw;
+    background-color: #101C32;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+footer .footer-col{
+   padding-bottom: 40px;
+}
+
+footer h3{
+   color: rbg(241, 240, 245); 
+   font-weight: 600;
+   padding-bottom: 20px;
+}
+
+footer li{
+    list-style: none;
+    color: #7b838a;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+footer li:hover{
+    color: rbg(241, 240, 245);
+
+}
+
+footer p{
+    color: #7b838a;
+}
+
+footer .subscribe{
+    margin-top: 20px;
+
+}
+
+footer input {
+    width: 220px;
+    padding: 15px 12px;
+    background: #334f6c;
+    border: none;
+    outline: none;
+    color: #fff;
 }
